@@ -2,7 +2,7 @@
 ```
 docker network create laravel_11_network
 ```
-# Menjalankan kontainer MySQL
+# Run MySQL container
 ```
 docker run -d \
   --name mysql_db \
@@ -11,7 +11,7 @@ docker run -d \
   -e MYSQL_DATABASE=my_database \
   mysql:8.3
 ```
-# Menjalankan kontainer phpMyAdmin
+# Run phpMyAdmin container
 ```
 docker run -d \
   --name phpmyadmin \
