@@ -1,4 +1,4 @@
-# Membuat network bridge untuk menghubungkan kontainer
+# Create network bridge
 ```
 docker network create laravel_11_network
 ```
